@@ -8,4 +8,6 @@ public class PathStrings {
     public static String getPlayerFile(Player player){
         return PLAYERDIR + player.getUniqueId() + ".yml";
     } //Returns the players UUID and stores it as a .yml file.
+    public static final String BANDIR = MAINDIR + "ban-list/";
+    public static final String MUTEDIR = MAINDIR + "mute-list/";
 }

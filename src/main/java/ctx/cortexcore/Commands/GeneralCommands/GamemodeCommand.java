@@ -24,7 +24,7 @@ public class GamemodeCommand implements CommandExecutor {
         Player target = Bukkit.getPlayer(args[0]);
         String Updated = PluginPrefix.PLUGINPREFIX+"&aYour Gamemode has Been Updated!";
 
-        if(rankHandler.getPlayerRank(player) >= 6){
+        if(rankHandler.getPlayerRank(player) >= 9){
             if(target != null && target.isOnline()){
                 switch (args[1]) {
                     case "c":

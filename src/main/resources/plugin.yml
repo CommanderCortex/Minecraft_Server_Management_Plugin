@@ -18,3 +18,9 @@ commands:
     description: Displays all cortex Commands
   cortex:
     description: Plugin Info.
+  kick:
+    description: Kicks a player.
+  gmc:
+    description: gmc
+  tempmutee:
+    description: Punish Command

@@ -16,10 +16,19 @@ public class MainDIRSetup {
         if(!_PLAYERDIR.exists())
             _PLAYERDIR.mkdir();
     }
+    public static void PUNISHDIRSETUP(){
+        File _BANDIR = new File(PathStrings.BANDIR);
+        File _MUTEDIR = new File(PathStrings.MUTEDIR);
+        if(!_MUTEDIR.exists())
+            _MUTEDIR.mkdir();
+        if(!_BANDIR.exists())
+            _BANDIR.mkdir();
+    }
     public static void SETUP(boolean Setup){
         if(Setup){
             MAINDIRSETUP();
             PLAYERSIRSETUP();
+            PUNISHDIRSETUP();
         }else
         Bukkit.broadcastMessage("DIR Setup Disabled, Skipping Setup of DIRS.");
     }
