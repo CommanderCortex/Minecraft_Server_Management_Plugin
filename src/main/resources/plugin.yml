@@ -1,0 +1,20 @@
+name: CortexCore
+version: ${project.version}
+main: ctx.cortexcore.CortexCore
+api-version: 1.16
+authors: [ CommanderCortex ]
+description: Minecraft Server Managment Plugin
+website: www.github.com/CommanderCortex
+commands:
+  fly:
+    description: Fly Command
+  rank:
+    description: Sets a Players Rank
+  gm:
+    description: Change GM
+  cc:
+    description: Clears Chat!
+  cortexhelp:
+    description: Displays all cortex Commands
+  cortex:
+    description: Plugin Info.
