@@ -14,5 +14,6 @@ public class OnPlayerJoin implements Listener {
         Player player = playerJoinEvent.getPlayer();
         PlayerSetup.setupPlayer(player);
         rankHandler.setTabPrefix();
+        playerJoinEvent.setJoinMessage("");
     }
 }

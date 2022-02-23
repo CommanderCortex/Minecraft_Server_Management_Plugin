@@ -15,8 +15,6 @@ public class OnTempBanPlayerJoin implements Listener {
         if(banUtil.isBanned(player)){
             if(banUtil.getBanMillis(player) <= System.currentTimeMillis())
                 banUtil.unBan(player);
-        }else {
-            banUtil.sendBanScreen(player);
         }
     }
 }
